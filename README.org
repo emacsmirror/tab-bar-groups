@@ -1,3 +1,6 @@
+⚠️ *Emacs 28 [[https://git.savannah.gnu.org/cgit/emacs.git/commit/etc/NEWS?id=f9b737fb9d21ac7adff403274167e76e77d033b8][adds a similar tab grouping facility]], which renders this
+package mostly obsolete.*
+
 * tab-bar-groups.el
 
 Tab groups for the tab bar.
@@ -5,14 +8,6 @@ Tab groups for the tab bar.
 This package provides the means to work with and to customize the
 appearance of named groups of tabs in Emacs 27 and higher (see below for
 screenshots and commands).
-
-*Note about tab groups in Emacs 28*: in early 2021, the notion of tab
-grouping [[https://git.savannah.gnu.org/cgit/emacs.git/commit/etc/NEWS?id=f9b737fb9d21ac7adff403274167e76e77d033b8][made its way into the upcoming Emacs 28]]. While this package
-continues to support a somewhat simplified version of tab grouping in
-Emacs 27, it also acknowledges recent developments by realigning its
-internals to use (and enhance) the tab bar group related facilities that
-Emacs 28 provides. If you are on Emacs 28, make sure to get a recent
-nightly.
 
 * Installation
 
